@@ -1,0 +1,70 @@
+{
+  "baseURL": "http://localhost:3000",
+  "at": "2026-10-16T15:01:11.954Z",
+  "results": [
+    {
+      "name": "Desktop 1440 routes, direct reload and overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile 390 routes, direct reload and overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Onboarding validation and persistence",
+      "status": "PASS"
+    },
+    {
+      "name": "Direct student routes require name onboarding",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed legacy storage recovers without crash",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed current storage nested data recovers without crash",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent legacy imports, cover object and reward guard",
+      "status": "PASS"
+    },
+    {
+      "name": "Quiz correctness and one-time rewards",
+      "status": "PASS"
+    },
+    {
+      "name": "Matching correction, locking and one-time rewards",
+      "status": "PASS"
+    },
+    {
+      "name": "Gallery image validation, moderation, dialog and appreciation",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin draft, publish, story reward, archive and restore",
+      "status": "PASS"
+    },
+    {
+      "name": "Cover-only publication preserves draft text and restores original",
+      "status": "PASS"
+    },
+    {
+      "name": "Material drafts, unique terms and published student/game content",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin CRUD creates, publishes and deletes story and material",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile navigation and matching keyboard controls",
+      "status": "PASS"
+    },
+    {
+      "name": "Desktop header 1280 and 1440 plus primary reading action",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "stories": [
+    {
+      "id": "jokotole",
+      "title": "Jokotole & Kuda Si Giga",
+      "origin": "Sumenep",
+      "minutes": 7,
+      "category": "Kisah kepahlawanan",
+      "image": "art-jokotole",
+      "readerImage": "jokotole",
+      "desc": "Ksatria sakti pembela keadilan, bersama kuda bersayap Si Giga.",
+      "available": true
+    },
+    {
+      "id": "potre-koneng",
+      "title": "Putri Potre Koneng",
+      "origin": "Sumenep",
+      "minutes": 6,
+      "category": "Legenda keraton",
+      "image": "potre-koneng",
+      "readerImage": "potre-koneng",
+      "desc": "Putri penuh welas asih dalam legenda dari Gua Payudan.",
+      "available": false
+    },
+    {
+      "id": "ke-lesap",
+      "title": "Ke' Lesap Sang Pemberani",
+      "origin": "Bangkalan",
+      "minutes": 8,
+      "category": "Kisah perjuangan",
+      "image": "ke-lesap",
+      "readerImage": "ke-lesap",
+      "desc": "Kisah perjuangan seorang pemberani pembela rakyat Madura.",
+      "available": false
+    }
+  ],
+  "artworks": [
+    {
+      "id": "ref-1",
+      "title": "Jokotole Terbang di Langit",
+      "category": "Ilustrasi Cerita",
+      "student": "Budi Santoso",
+      "school": "SDN Manding Laok",
+      "className": "VI-A",
+      "likes": 48,
+      "image": "art-jokotole"
+    },
+    {
+      "id": "ref-2",
+      "title": "Putri Potre Koneng & Gua",
+      "category": "Ilustrasi Cerita",
+      "student": "Siti Aisyah",
+      "school": "SDN Pajagalan 1",
+      "className": "VI-B",
+      "likes": 56,
+      "image": "potre-koneng"
+    },
+    {
+      "id": "ref-3",
+      "title": "Ke’ Lesap Penjaga Selat",
+      "category": "Komik Mini",
+      "student": "Farhan Maulidi",
+      "school": "SDN Bangkalan 3",
+      "className": "VI-C",
+      "likes": 42,
+      "image": "ke-lesap"
+    },
+    {
+      "id": "ref-4",
+      "title": "Miniatur Pesa’an & Odeng",
+      "category": "Kerajinan Tangan",
+      "student": "Rian Hidayat",
+      "school": "SDN Kalianget 2",
+      "className": "VI-A",
+      "likes": 39,
+      "image": "art-craft"
+    },
+    {
+      "id": "ref-5",
+      "title": "Karapan Sapi Ceria",
+      "category": "Ilustrasi Cerita",
+      "student": "Aulia Rahma",
+      "school": "SDN Kolor 1 Sumenep",
+      "className": "VI-B",
+      "likes": 61,
+      "image": "art-karapan"
+    },
+    {
+      "id": "ref-6",
+      "title": "Motif Batik Gentongan Madura",
+      "category": "Kerajinan Tangan",
+      "student": "Dewi Sekar",
+      "school": "SDN Tanjungkarang 1",
+      "className": "VI-A",
+      "likes": 50,
+      "image": "art-batik"
+    }
+  ],
+  "cultures": [
+    {
+      "id": "pesaan",
+      "label": "Pakaian adat pria",
+      "term": "Pesa’an",
+      "desc": "Baju hitam dengan kaos garis merah-putih.",
+      "image": "sakera"
+    },
+    {
+      "id": "odeng",
+      "label": "Penutup kepala",
+      "term": "Odeng",
+      "desc": "Ikat kepala batik berlipat.",
+      "image": "odeng"
+    },
+    {
+      "id": "celurit",
+      "label": "Senjata tradisional",
+      "term": "Celurit",
+      "desc": "Bilah baja melengkung bulan sabit.",
+      "image": "celurit"
+    },
+    {
+      "id": "batik",
+      "label": "Kain khas daerah",
+      "term": "Batik Madura",
+      "desc": "Kain bermotif flora dengan warna berani.",
+      "image": "art-batik"
+    },
+    {
+      "id": "karapan",
+      "label": "Pesta pacuan rakyat",
+      "term": "Karapan Sapi",
+      "desc": "Lomba pacuan sepasang sapi.",
+      "image": "art-karapan"
+    }
+  ]
+}

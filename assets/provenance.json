@@ -1,0 +1,170 @@
+{
+  "logo": {
+    "file": "assets/logo.png",
+    "width": 165,
+    "height": 127,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.37.jpeg",
+    "reference": 4,
+    "crop": [
+      718,
+      331,
+      883,
+      458
+    ],
+    "treatment": "gray"
+  },
+  "sakera": {
+    "file": "assets/sakera.png",
+    "width": 311,
+    "height": 315,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.39.jpeg",
+    "reference": 10,
+    "crop": [
+      200,
+      327,
+      511,
+      642
+    ],
+    "treatment": "cream"
+  },
+  "marlena": {
+    "file": "assets/marlena.png",
+    "width": 231,
+    "height": 230,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.38.jpeg",
+    "reference": 7,
+    "crop": [
+      158,
+      451,
+      389,
+      681
+    ],
+    "treatment": "cream"
+  },
+  "jokotole": {
+    "file": "assets/jokotole.png",
+    "width": 597,
+    "height": 520,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.38-_1_.jpeg",
+    "reference": 5,
+    "crop": [
+      41,
+      181,
+      638,
+      701
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "potre-koneng": {
+    "file": "assets/potre-koneng.png",
+    "width": 368,
+    "height": 206,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.37-_1_.jpeg",
+    "reference": 2,
+    "crop": [
+      813,
+      206,
+      1181,
+      412
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "ke-lesap": {
+    "file": "assets/ke-lesap.png",
+    "width": 365,
+    "height": 206,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.37-_1_.jpeg",
+    "reference": 2,
+    "crop": [
+      1208,
+      206,
+      1573,
+      412
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "art-jokotole": {
+    "file": "assets/art-jokotole.png",
+    "width": 369,
+    "height": 206,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.37-_1_.jpeg",
+    "reference": 2,
+    "crop": [
+      422,
+      206,
+      791,
+      412
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "art-craft": {
+    "file": "assets/art-craft.png",
+    "width": 369,
+    "height": 201,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.37-_1_.jpeg",
+    "reference": 2,
+    "crop": [
+      422,
+      601,
+      791,
+      802
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "art-karapan": {
+    "file": "assets/art-karapan.png",
+    "width": 368,
+    "height": 201,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.37-_1_.jpeg",
+    "reference": 2,
+    "crop": [
+      813,
+      601,
+      1181,
+      802
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "art-batik": {
+    "file": "assets/art-batik.png",
+    "width": 365,
+    "height": 201,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.37-_1_.jpeg",
+    "reference": 2,
+    "crop": [
+      1208,
+      601,
+      1573,
+      802
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "odeng": {
+    "file": "assets/odeng.png",
+    "width": 103,
+    "height": 118,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.39-_1_.jpeg",
+    "reference": 8,
+    "crop": [
+      121,
+      575,
+      224,
+      693
+    ],
+    "treatment": "original screenshot crop"
+  },
+  "celurit": {
+    "file": "assets/celurit.png",
+    "width": 101,
+    "height": 97,
+    "source": "WhatsApp-Image-2026-10-13-at-06.54.39-_1_.jpeg",
+    "reference": 8,
+    "crop": [
+      121,
+      720,
+      222,
+      817
+    ],
+    "treatment": "original screenshot crop"
+  }
+}
