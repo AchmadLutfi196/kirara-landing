@@ -1,0 +1,92 @@
+/* KIRARA Linear: fullscreen smartboard flow di atas design system yang ada */
+html,body{height:100%}
+body.linear-mode{overflow:hidden}
+body.linear-mode .lin-stage{position:fixed;inset:var(--lin-top,64px) 0 0 0;overflow:hidden;display:grid}
+body.linear-mode .lin-stage>*{min-height:0}
+
+.lin-top{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;gap:var(--s6);height:64px;padding-inline:var(--s6);background:var(--surface);border-bottom:2px solid var(--border)}
+.lin-brand{display:flex;align-items:center;gap:10px;font-family:var(--font-heading);font-weight:700;font-size:20px;color:var(--primary)}
+.lin-brand img{width:40px;height:auto}
+.lin-steps{display:flex;flex:1;justify-content:center;gap:var(--s3);list-style:none;margin:0;padding:0}
+.lin-step{display:flex;align-items:center;gap:8px;padding:6px 16px;border-radius:999px;border:2px solid var(--border);background:var(--surface-secondary);font-size:15px;font-weight:600;color:var(--muted);white-space:nowrap}
+.lin-step .icon{width:16px;height:16px}
+.lin-step.current{border-color:var(--primary);color:var(--primary);background:var(--surface)}
+.lin-step.done{border-color:var(--success);color:var(--success-text);background:var(--success-soft,var(--surface-secondary))}
+.lin-step .lin-step-num{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--border);color:var(--text);font-size:12px}
+.lin-step.current .lin-step-num{background:var(--primary);color:white}
+.lin-step.done .lin-step-num{background:var(--success);color:white}
+.lin-points{display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:var(--gold-soft,#FFF4DD);border:2px solid var(--gold);font-weight:700;color:var(--text)}
+.lin-points .icon{width:18px;height:18px}
+.stage-back{margin-right:auto}
+
+.lin-back{flex:0 0 auto;height:40px;padding:0 var(--s4);font-size:15px}
+.lin-back .icon{width:18px;height:18px}
+
+/* Semua tombol lebih besar untuk sentuhan smartboard */
+body.linear-mode .btn{min-height:60px;font-size:19px;padding-inline:28px;border-radius:var(--r-control)}
+body.linear-mode .btn.icon-button{min-height:60px;min-width:60px;padding-inline:0}
+body.linear-mode .input{min-height:60px;font-size:20px}
+body.linear-mode .quiz-option{min-height:92px;font-size:22px}
+body.linear-mode .quiz-option .option-key{width:44px;height:44px;font-size:20px}
+body.linear-mode .guide img{width:96px}
+body.linear-mode .guide{padding:var(--s4)}
+
+/* Transisi antartahap */
+@keyframes lin-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.lin-stage>section{animation:lin-in 180ms ease-out;width:100%;height:100%;display:grid;place-items:center;padding:var(--s6)}
+@media(prefers-reduced-motion:reduce){.lin-stage>section{animation:none}}
+
+/* Welcome */
+.lin-welcome{position:relative;overflow:hidden}
+.lin-welcome .scene-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1}
+.lin-welcome-inner{display:flex;align-items:center;gap:var(--s8);max-width:1200px;width:100%;justify-content:center}
+.lin-welcome .scene-companion img{width:220px}
+.lin-welcome-card{background:var(--surface);border:3px solid var(--world-wood,#8A5038);border-radius:var(--r-panel);box-shadow:var(--shadow);padding:var(--s8);display:grid;gap:var(--s6);max-width:560px;width:100%;text-align:center}
+.lin-welcome-card h1{font-size:40px}
+.lin-welcome-card .lin-logo{width:120px;margin:auto}
+.lin-welcome-card .field{text-align:left}
+
+/* Baca cerita */
+.lin-baca{display:grid;place-items:center;padding:var(--s6)}
+.lin-baca .reader-layout{width:100%;max-width:1344px;height:100%;min-height:0;align-items:stretch}
+.lin-baca .reader-copy{overflow:auto}
+.lin-baca .reader-copy article{font-size:24px;line-height:1.7}
+.lin-baca .reader-figure img{max-height:280px;object-fit:contain;width:100%}
+.lin-baca aside{display:flex;flex-direction:column;gap:var(--s4);min-height:0;overflow:auto}
+.lin-reader-footer{display:flex;align-items:center;gap:var(--s4);padding:var(--s4) var(--s6);background:var(--surface);border-top:2px solid var(--border);grid-column:1/-1}
+.lin-reader-footer .reading-progress{flex:1}
+.lin-baca-wrap{display:grid;grid-template-rows:1fr auto;width:100%;max-width:1344px;height:100%;margin:auto;min-height:0}
+
+/* Pilih cerita */
+.lin-pilih{display:grid;place-items:start center;overflow:auto;padding:var(--s5) var(--s6)}
+.lin-pilih-wrap{width:100%;max-width:1344px;margin:auto}
+.lin-pilih .story-media{min-height:224px}
+.lin-pilih .story-media img{width:100%;height:auto;object-fit:contain;background:transparent}
+.lin-pilih .story-card.is-chosen{border:3px solid var(--primary)}
+.lin-pilih .story-body .btn{width:100%;justify-content:center}
+
+/* Mini game & kuis */
+.lin-game,.lin-kuis{display:grid;place-items:start center;padding:var(--s5) var(--s6);overflow:auto}
+.lin-game>*,.lin-kuis>*{width:100%;max-width:1344px}
+body.linear-mode .culture-picture img{width:96px}
+body.linear-mode .game-board{padding:var(--s6)}
+
+/* Hasil */
+.lin-hasil{display:grid;place-items:center;overflow:auto;padding:var(--s6)}
+.lin-hasil .result-layout{max-width:1100px;width:100%;height:max-content;margin:auto}
+body.linear-mode .result-score{font-size:72px}
+body.linear-mode .result-guide img{width:220px}
+
+/* Layar sempit tetap terjaga */
+@media(max-width:1023px){
+ .lin-steps{display:none}
+ .lin-top{height:56px}
+ body.linear-mode .lin-stage{inset:56px 0 0 0;overflow:auto}
+ .lin-stage>section{height:auto;min-height:100%}
+ .lin-baca{display:block}
+ .lin-baca .reader-layout{height:auto}
+ .lin-welcome{display:grid}
+ .lin-welcome .scene-companion{display:none}
+ body.linear-mode .btn{min-height:52px;font-size:17px}
+ body.linear-mode .quiz-option{min-height:72px;font-size:19px}
+}
